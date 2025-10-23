@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.title('Stroke Prediction Demo')
+st.title('Stroke Prediction By ELANGO T')
 model = joblib.load('best_stroke_model.joblib')
 
 st.sidebar.header('Patient input')
